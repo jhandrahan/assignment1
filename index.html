@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/5d205f2c86.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,700&family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Drive Solo</title>
 </head>
@@ -25,83 +28,140 @@
                         </ul>
                     </nav>
             </div>
-            <h1>
-                <div>DRIVE</div> 
-                <div>SOLO</div> 
-                <span>curated finest selection</span> 
-            </h1>  
+            
+            <div class="flexHeader">
+
+                <h1>
+                    <div>DRIVE</div> 
+                    <div>SOLO</div> 
+                    <span>curated finest selection</span> 
+                </h1>  
+                <div class="socialMedia">
+                    <ul>
+                        <li><a href="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="snapchat"><i class="fa-brands fa-snapchat"></i></a></li>
+                        <li><a href="twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
     </header>
 
     <!-- MAIN SECTION STARTS HERE -->
     <main>
         <section class="newArticles">
             <div class="wrapper">
+                
                 <h2>NEWS ARTICLES</h2>
                 <ul>
-                   
-                    <li>
-                        <img src="./assets/image-2_2@2x.png" alt="">
-                    </li>
-                    <li>
-                        <img src="./assets/image-3@2x.png" alt="">
-                    </li>
-                    <li>
-                        <img src="./assets/image-4@2x.png" alt="">
-                    </li>
+                    <li><img src="./assets/image-2_2@2x.png" alt="red shiny back-side end of car with tire"></li>
+                    <li><img src="./assets/image-3@2x.png" alt="red shiny front-side end of car with tire"></li>
+                    <li><img src="./assets/image-4@2x.png" alt="left tail light on the back end of a red shiny car"></li>
                 </ul>
             </div>
         </section>
 
         <section class="highlights">
-            <div class="wrapper">
-                <div class="imgContainer">
-                    <img src="./assets/image-6@2x.png" alt="grey car with yellow stripe">
-                </div>
+            <div class="wrapper flexHighlight">
                 
-                <div class="textContainer">
-                    <h2>this weeks highlight</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati natus quam voluptate rem quod minus dolor animi inventore velit quo ratione officia, excepturi mollitia in consectetur autem quidem, similique dolore?</p>
-                    <button>read more</button>
-                </div>
+                    <div class="imgContainer">
+                        <img src="./assets/image-6@2x.png" alt="grey car with yellow stripe up the hood">
+                    </div>
+                    
+                    <div class="textContainer">
+                        <h2>this weeks highlight</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga architecto excepturi possimus sapiente tempore vero laboriosam dolores nulla quaerat unde quia, dolorem magni fugiat suscipit, doloremque, aperiam ea dignissimos itaque laborum dolore exercitationem similique. Deleniti earum beatae, molestiae blanditiis saepe nesciunt. Ex, esse possimus, aspernatur eligendi deleniti non, fugit sed numquam atque mollitia sequi voluptatibus?</p>
+                        <button>read more</button>
+                    </div>
+                
             </div>
-
         </section>
 
         <section class="models">
-            <div class="wrapper">
+            
                
-                <div class="textContainer">
+                <div class=" txtContainer">
                     <h2>new models to look into it</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati natus quam voluptate rem quod minus dolor animi inventore velit quo ratione officia, excepturi mollitia in consectetur autem quidem, similique dolore?</p>
                     <button>read more</button>
                 </div>
 
-                <div class="imgContainer">
-                    <img src="./assets/image-2@2x.png" alt="white car with blue stripe">
+                <div class="whiteCar">
+                    <img src="./assets/image-2@2x.png" alt="white car with blue stripe up the middle of the car">
                 </div>
 
-            </div>
+           
 
         </section>
 
-        <section>
-            <div class="wrapper">
-                <div class="imgContainer">
-                    <img src="./assets/image-2-copy@2x.png" alt="grey car with yellow stripe">
+        <section class="driveStyle">
+            
+                <div class="whiteCar">
+                    <img src="./assets/image-2-copy@2x.png" alt="white car in a garage with other cars in the background">
                 </div>
                 
-                <div class="textContainer">
+                <div class="txtContainer">
                     <h2>drive in the style in the night</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati natus quam voluptate rem quod minus dolor
                         animi inventore velit quo ratione officia, excepturi mollitia in consectetur autem quidem, similique dolore?</p>
                     <button>read more</button>
                 </div>
+            
+        </section>
+        
+        
+        <section class="resources">
+            <div class="wrapper">
+                <div class="resourceInfo">
+                    <ul>
+                        <li><a href="#"><h3>shop brands</h3><i class="fa-solid fa-car fa-3x"></i></a></li>
+                        <li><a href="#"><h3>jobs</h3><i class="fa-solid fa-briefcase fa-3x"></i></a></li>
+                        <li><a href="#"><h3>events</h3><i class="fa-solid fa-calendar-check fa-3x"></i></a></li>
+                    </ul>
+                </div>
+        </section>
+
+        <section class="contact">
+            <div class="wrapper">
+                <div class="flexContact">
+                    <div>
+                        <h3>stay updated</h3>
+                        <p>Subscribe to our newsletter to stay updated.</p>
+                    
+
+                        <form action="#" method="#" name="myForm">
+                        
+                            <label for="emailAddress"></label>
+                            <input type="text" id="emailAddress" name="emailAddress" placeholder="email address">
+                            
+                            <button>Subscribe</button>
+                        
+                        </form>
+                    </div>
+                    <div class="contactInfo">
+                        <h3>Contact</h3>
+                        <p>info@email.com | 123-456-7890</p>
+                        <p>123 some road, Toronto, ON</p>
+                        <p>A5A 5A5, Canada</p>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li><a href="#home"><h3>Home</h3></a></li>
+                            <li><a href="#about"><h3>About</h3></a></li>
+                            <li><a href="#blog"><h3>blog</h3></a></li>
+                            <li><a href="#contact"><h3>contact</h3></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
+
     </main>
 
     <footer>
-        <p>created by jessica handrahan</p>
+        <p>Created by Jessica Handrahan</p>
     </footer>
 </body>
 </html>

@@ -4,13 +4,44 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
+/* Color */
+/* Scarlett #BA0621 */
+/* Very Dark Brown #0B0101 */
+/* Lipstick #CC1D36 */
+/* Wine Red #6C0918 */
+
+
+
 /* BASE STYLES */
 html{
     font-size: 125%;
     color: black;
     font-family: 'Lato', sans-serif;
+}
 
+h2{
+    font-family: 'Kanit', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2rem;
+}
 
+h3 {
+    font-family: 'Kanit', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+    line-height: 1.5rem;
+   
 }
 
 img {
@@ -37,6 +68,20 @@ a {
     margin: 0 auto;
 }
 
+button {
+    background-color: #cc1d36;
+    border: 4px solid transparent;
+    font-family: 'Kanit', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 20px 5px 20px;
+    color: white;
+}
+
 
 
 
@@ -49,14 +94,15 @@ header {
     min-height: 100vh;
     padding: 5px 0;
     
+    
 }
 
 h1 {
     color: #cc1d36;
     font-family: 'Kanit', sans-serif;
-    line-height: 97px;
+    line-height: 5rem;
     letter-spacing: 1px;
-    font-size: 116.2px;
+    font-size: 5.2rem;
     margin-top: 17rem;
     
 }
@@ -66,7 +112,7 @@ h1 span {
     font-family: 'Lato', sans-serif;
     line-height: 31.6px;
     letter-spacing: 0.3px;
-    font-size: 31px;
+    font-size: 1.6rem;
     display: block;
 }
 
@@ -90,15 +136,218 @@ nav ul {
     color: white;
 }
 
+.flexHeader {
+    display: flex;
+    margin-top: 250px;
+    justify-content: space-between;
+}
+
+
+.socialMedia {
+    display: flex;
+    justify-content: flex-end;    
+}
+.socialMedia ul{
+    margin-top: auto;
+}
+
+.socialMedia li {
+    margin: 7px;
+}
+
+
 /* SECTION STYLES */
 
-h2{
-    color: black;
+/* news articales section */
+
+.newArticles{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.newArticles h2{   
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .newArticles ul{
     display: flex;
-    /* flex-wrap: wrap;
-    justify-content: space-between; */
+    justify-content: space-between;
+
+}
+
+.newArticles li {
+    
+    width: 32%;
+    margin-bottom: 20px;
+}
+
+/* highlight section */
+.highlights{
+    margin-bottom: 80px;
+}
+.flexHighlight {
+    display: flex;
+    align-items: flex-start;
+   
+}
+
+.highlights h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    
+}
+.highlights p {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.imgContainer {
+    width: calc(30% - 30px);
+    margin-right: 30px;
+   
+}
+.textContainer {
+    width: 70%;
+    position: relative;
+}
+.textContainer button {
+    position: relative;
+    top: 20px;
+}
+
+/* MODELS SECTION */
+
+.models {
+    display: flex;
+}
+
+.txtContainer {
+    margin-left: auto;
+    margin-top: 90px;
+    width: 39%;
+  
+}
+
+.whiteCar {
+    width: 50%
+
+}
+
+.txtContainer h2 {
+    margin-bottom: 0px;
+    padding-right: 190px;
+}
+
+.txtContainer p {
+    padding-right: 60px;
+}
+
+
+/* DRIVE STYLE SECTION */
+
+.driveStyle {
+    display: flex;
+}
+
+
+
+
+/* RESOURCE STYLES */
+.resources {
+    background-image: url(./assets/oscar-aguilar-327500-unsplash@2x.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh;
+    position: relative;
+}
+
+
+.resourceInfo ul {
+    display: flex;
+    justify-content:space-around;
+   
+}
+
+
+.resourceInfo a {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    
+
+}
+.fa-solid {
+    color: #cc1d36;
+   
+}
+
+/* CONTACT STYLES */
+
+.contact{
+    background-color: #6C0918;
+    color: white;
+    
+}
+
+.contact p {
+    margin: 0;
+}
+
+.flexContact {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+   
+}
+
+input {
+    width: 70%;
+}
+
+.contact button {
+    background-color: #0B0101;
+}
+
+
+
+
+
+/* FOOTER STYLES */
+footer {
+    color: white;
+    background-color: #0B0101;
+    text-align: center;
+}
+footer p {
+    margin: auto;
+}
+
+/* media queries */
+
+@media (max-width: 500px) {
+    .logoText, 
+    .flexContainer a,
+    .socialMedia a{
+        color: transparent;
+    }
+
+    .flexHighlight {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .flexHighlight h2{
+        font-size: 28px;
+    }
+    .imgContainer {
+        width: 100%;
+        margin-right: 0;
+    }
+  
+  
+
 }
