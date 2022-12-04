@@ -225,8 +225,8 @@ nav ul {
 
 .txtContainer {
     margin-left: auto;
-    margin-top: 90px;
-    width: 39%;
+   
+    width: 40%;
   
 }
 
@@ -327,8 +327,38 @@ footer p {
 }
 
 /* media queries */
+ @media (max-width: 900px){
+    .highlights,
+    .models,
+    .driveStyle {
+        display: block;
+    }
 
-@media (max-width: 500px) {
+    .txtContainer{
+        width: 100%;
+        text-align: center;
+    }
+
+    .txtContainer h2,
+    .txtContainer p{
+        padding: 0;
+    }
+
+    .whiteCar{
+        width: fit-content;
+    }
+    .mobileWrapper{
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    }
+
+ }
+
+
+
+
+ @media (max-width: 500px) {
     .logoText, 
     .flexContainer a,
     .socialMedia a{
@@ -347,7 +377,9 @@ footer p {
         width: 100%;
         margin-right: 0;
     }
-  
+   
+    
+
   
 
 }
