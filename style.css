@@ -103,8 +103,7 @@ h1 {
     line-height: 5rem;
     letter-spacing: 1px;
     font-size: 5.2rem;
-    margin-top: 17rem;
-    
+    margin-top: 17rem; 
 }
 
 h1 span {
@@ -127,7 +126,6 @@ nav  a {
 
 nav ul {
     display: flex;
-
 }
 
 .logoText {
@@ -263,6 +261,10 @@ nav ul {
     position: relative;
 }
 
+.resourceInfo h3{
+    color: white;
+}
+
 
 .resourceInfo ul {
     display: flex;
@@ -275,9 +277,8 @@ nav ul {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    position: relative;
-    top: 100px;
-    
+    margin-left: 0;
+    padding-top: 100px;
 
 }
 .fa-solid {
@@ -334,7 +335,8 @@ footer p {
         display: block;
     }
 
-    .txtContainer{
+    .txtContainer,
+    .textContainer{
         width: 100%;
         text-align: center;
     }
@@ -352,6 +354,8 @@ footer p {
     max-width: 1080px;
     margin: 0 auto;
     }
+
+    
 
  }
 
@@ -377,9 +381,21 @@ footer p {
         width: 100%;
         margin-right: 0;
     }
-   
-    
+    .resourceInfo{
+        margin-top: 40px;
+        padding-bottom: 50px;
+    }
 
-  
+    .resourceInfo ul {
+        display: block;
+    }
+
+    .resourceInfo h3{
+        text-align: center;
+    }
+
+    .resourceInfo a{
+        padding-top: 50px;
+    }
 
 }
