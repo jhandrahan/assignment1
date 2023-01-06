@@ -329,10 +329,15 @@ footer p {
 
 /* media queries */
  @media (max-width: 900px){
-    .highlights,
+    .flexHighlight,
     .models,
     .driveStyle {
         display: block;
+    }
+    .imgContainer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .txtContainer,
