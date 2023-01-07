@@ -259,6 +259,7 @@ nav ul {
     background-position: center;
     min-height: 40vh;
     position: relative;
+    margin-top: 80px;
 }
 
 .resourceInfo h3{
@@ -301,7 +302,7 @@ nav ul {
 .flexContact {
     display: flex;
     justify-content: space-between;
-    padding: 100px 0px;
+    padding: 40px 0px;
    
 }
 
@@ -360,6 +361,10 @@ footer p {
     margin: 0 auto;
     }
 
+        .flexContact {
+            flex-direction: column;            
+    
+        }
     
 
  }
